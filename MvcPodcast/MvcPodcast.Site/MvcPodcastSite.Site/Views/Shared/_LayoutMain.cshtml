@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+  <link href="http://fonts.googleapis.com/css?family=Syncopate" rel="stylesheet" type="text/css" />
+  <link href="~/Styles/_LayoutMain.css" rel="stylesheet" />
+  <link href="~/Styles/_ViewCommon.css" rel="stylesheet" />
+  <meta name="viewport" content="width=device-width" />
+  <title>@ViewBag.Title</title>
+</head>
+<body>
+  <header>
+		<span>U</span>NTITLED
+    <p>PODCAST</p>
+  </header>
+  <nav>
+    <a href="/Articles/News">NEWS</a>
+    <a href="/Articles/Podcasts">PODCASTS</a>
+    <a href="/Info/About">ABOUT</a>
+  </nav>
+  @RenderBody()
+  <footer>
+    Copyright &copy; 2014 Warren Simington
+  </footer>
+</body>
+</html>

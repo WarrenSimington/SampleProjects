@@ -1,0 +1,28 @@
+﻿section
+{
+  /*Separate "about us" section from bio sections*/
+  margin-bottom: 48px;
+}
+
+.aboutRegion
+{
+  overflow: hidden;
+}
+
+.bio
+{
+  /*Set bio section width*/
+  width: 46%;
+}
+
+#jeremyBio
+{
+  /*Right bio column*/
+  float: right;
+}
+
+#warrenBio
+{
+  /*Left bio column*/
+  float: left;
+}

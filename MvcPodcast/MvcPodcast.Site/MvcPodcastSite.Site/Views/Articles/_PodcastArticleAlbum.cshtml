@@ -1,0 +1,28 @@
+﻿@using Blog.Common.BusinessObjects
+@using Blog.Common.Interfaces
+@using Blog.Site.Factories
+@using System.IO;
+@model Blog.Site.Models.ViewAlbum
+
+<div class="album">
+  <p class="albumCaption">@Model.Album.Caption</p>
+  <div class="albumImage">
+    <img src="@Path.Combine(Model.ImageRelativeDirPath, Model.Album.CoverImageFileName)" />
+  </div>
+  <div class="albumInfo">
+    <div class="albumInfoText">
+      <p class="albumTitle">@Model.Album.Title</p>
+      <p class="artistName">@string.Format("by {0}", Model.Album.Artist)</p>
+      <p class="releaseYear">@Model.Album.Year</p>
+      <p class="albumLabel">@Model.Album.Label</p>
+    </div>
+  </div>
+</div>
+<div class="albumUrls">
+  @foreach (DynamicUrl url in Model.Album.ListenUrls)
+  {
+    <p>
+      <a href="@url.Url">@url.DisplayText</a>
+    </p>
+  }
+</div>

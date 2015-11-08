@@ -1,0 +1,6 @@
+﻿@model Blog.Site.Models.ViewArticle
+
+<article class="newsArticle">
+  <span class="articleDate">@Model.Article.PostDateTime.ToString("yyyy.MM.dd")</span>
+  <p>@Model.Article.BodyText</p>
+</article>

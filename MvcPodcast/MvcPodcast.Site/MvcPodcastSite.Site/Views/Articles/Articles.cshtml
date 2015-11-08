@@ -1,0 +1,40 @@
+﻿@using Blog.Common.BusinessObjects
+@using Blog.Site.Models
+@model ViewArticles
+
+<link href="~/Styles/News.css" rel="stylesheet" />
+<h2 class="caption">@Model.ViewCaption</h2>
+@{
+  if (Model.Articles.Count() == 0)
+  {
+    @:No articles found.
+  }
+  else
+  {
+    foreach (NewsArticle article in Model.Articles)
+    {
+      if (article is PodcastArticle)
+      {
+        Html.RenderPartial(
+            "_PodcastArticle",
+            new ViewPodcast()
+            {
+              Article = (PodcastArticle)article,
+              ImageRelativeDirPath = Model.ImageRelativePath,
+              PodcastRelativeDirPath = Model.PodcastRelativePath
+            });
+      }
+      else if (article is NewsArticle)
+      {
+        Html.RenderPartial(
+            "_NewsArticle",
+            new ViewArticle()
+            {
+              Article = article,
+              ImageRelativeDirPath = Model.ImageRelativePath,
+              PodcastRelativeDirPath = Model.PodcastRelativePath
+            });
+      }
+    }
+  }
+}

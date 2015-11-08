@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcPodcast.Site", "MvcPodcast.Site\MvcPodcastSite.Site\MvcPodcast.Site.csproj", "{C03C6EBE-521B-487B-B2BB-739A53B1C655}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcPodcast.Common", "MvcPodcast.Common\MvcPodcast.Common.csproj", "{027BDC15-6CFE-44FF-B6D5-39350FDD7BA7}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "MvcPodcast.Db", "MvcPodcast.Db\MvcPodcast.Db.sqlproj", "{6B771538-8260-4406-9D2F-1F7EAE612A5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wes.Crypto", "Wes.Crypto\Wes.Crypto.csproj", "{592512B3-3CF2-4A68-9996-3D9796B1A940}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wes.Database", "Wes.Database\Wes.Database.csproj", "{9FC1CE68-BFBA-425A-8252-408AB34B8BE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoUtility", "CryptoUtility\CryptoUtility.csproj", "{34AB0471-60E0-4484-A5BD-F3F8AB68F502}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C03C6EBE-521B-487B-B2BB-739A53B1C655}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C03C6EBE-521B-487B-B2BB-739A53B1C655}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C03C6EBE-521B-487B-B2BB-739A53B1C655}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C03C6EBE-521B-487B-B2BB-739A53B1C655}.Release|Any CPU.Build.0 = Release|Any CPU
+		{027BDC15-6CFE-44FF-B6D5-39350FDD7BA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{027BDC15-6CFE-44FF-B6D5-39350FDD7BA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{027BDC15-6CFE-44FF-B6D5-39350FDD7BA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{027BDC15-6CFE-44FF-B6D5-39350FDD7BA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B771538-8260-4406-9D2F-1F7EAE612A5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B771538-8260-4406-9D2F-1F7EAE612A5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B771538-8260-4406-9D2F-1F7EAE612A5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B771538-8260-4406-9D2F-1F7EAE612A5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B771538-8260-4406-9D2F-1F7EAE612A5D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{592512B3-3CF2-4A68-9996-3D9796B1A940}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{592512B3-3CF2-4A68-9996-3D9796B1A940}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{592512B3-3CF2-4A68-9996-3D9796B1A940}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{592512B3-3CF2-4A68-9996-3D9796B1A940}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FC1CE68-BFBA-425A-8252-408AB34B8BE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FC1CE68-BFBA-425A-8252-408AB34B8BE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FC1CE68-BFBA-425A-8252-408AB34B8BE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FC1CE68-BFBA-425A-8252-408AB34B8BE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34AB0471-60E0-4484-A5BD-F3F8AB68F502}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34AB0471-60E0-4484-A5BD-F3F8AB68F502}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34AB0471-60E0-4484-A5BD-F3F8AB68F502}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34AB0471-60E0-4484-A5BD-F3F8AB68F502}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

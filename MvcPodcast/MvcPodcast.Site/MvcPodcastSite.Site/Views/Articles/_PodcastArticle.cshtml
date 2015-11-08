@@ -1,0 +1,33 @@
+﻿@using Blog.Site.Models
+@using System.IO
+@model Blog.Site.Models.ViewPodcast
+
+<article class="newsArticle">
+  <span class="articleDate">@Model.Article.PostDateTime.ToString("yyyy.MM.dd")</span>
+  <p>@Model.Article.BodyText</p>
+  <a href="@Path.Combine(Model.PodcastRelativeDirPath, Model.Article.PodcastUrl.Url)">@Model.Article.PodcastUrl.DisplayText</a>
+  <div class="articleAlbums">
+    <div class="album1">
+      @{ 
+        Html.RenderPartial(
+            "_PodcastArticleAlbum",
+            new ViewAlbum()
+            {
+              Album = Model.Article.Album1,
+              ImageRelativeDirPath = Model.ImageRelativeDirPath
+            }); 
+      }
+    </div>
+    <div class="album2">
+      @{ 
+        Html.RenderPartial(
+            "_PodcastArticleAlbum",
+            new ViewAlbum()
+            {
+              Album = Model.Article.Album2,
+              ImageRelativeDirPath = Model.ImageRelativeDirPath
+            }); 
+      }
+    </div>
+  </div>
+</article>

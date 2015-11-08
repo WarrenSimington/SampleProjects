@@ -1,0 +1,118 @@
+﻿/*NewsArticle*/
+.articleDate
+{
+  color: #ffffff;
+  font-weight: 900;
+}
+
+.newsArticle
+{
+  /*Set border and background color for article section*/
+  background-color: #0f0f0f;
+  border: 1px solid #3f3f3f;
+  /*Add padding to separate text from border and add margin at bottom to separate
+    from other article sections*/
+  margin-bottom: 12px;
+  padding: 16px 24px 4px 24px;
+}
+
+/*PodcastArticle*/
+.album1
+{
+  float: left;
+}
+
+.album2
+{
+  float: right;
+}
+
+.articleAlbums
+{
+  margin-top: 16px;
+  margin-bottom: 12px;
+  overflow: hidden;
+}
+
+/*PodcastArticleAlbum*/
+.album
+    {
+      border: 1px solid #3f3f3f;
+      height: 220px;
+      overflow: hidden;
+      padding: 8px 8px 8px 8px;
+      width: 460px;
+    }
+
+      .album p
+      {
+        /*Reset paragragh tag margins*/
+        margin: 4px;
+      }
+
+    .albumCaption
+    {
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+
+    .albumImage
+    {
+      float: left;
+      margin-left: 4px;
+      width: 40%;
+    }
+
+      .albumImage img
+      {
+        border: 1px solid #7f7f7f;
+        height: 180px;
+        width: 180px;
+        margin-top: 8px;
+      }
+
+    .albumInfo
+    {
+      display: table;
+      float: right;
+      height: 180px;
+      text-align: center;
+      width: 59%;
+    }
+
+    .albumInfoText
+    {
+      display: table-cell;
+      vertical-align: middle;
+    }
+
+    .albumTitle
+    {
+      font-weight: 700;
+      font-size: 1.3em;
+    }
+
+    .albumUrls
+    {
+      padding-top: 8px;
+      padding-bottom: 8px;
+      text-align: center;
+      width: 460px;
+    }
+    
+      .albumUrls a
+      {
+        font-size: .8em;
+        font-weight: 500;
+      }
+
+      .albumUrls p
+      {
+        margin: 0;
+      }
+
+    .artistName
+    {
+      font-size: 1.1em;
+      font-style: italic;
+    }

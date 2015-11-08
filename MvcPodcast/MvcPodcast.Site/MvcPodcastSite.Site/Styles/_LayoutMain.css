@@ -1,0 +1,109 @@
+﻿  a:link
+  {
+    /*Set nav link general color*/
+    color: #900000;
+  }
+
+  a:visited
+  {
+    /*Set nav link visited color*/
+    color: #900000;
+  }
+
+  a:hover
+  {
+    /*Set hover color for links*/
+    color: #ff0000;
+  }
+
+body
+    {
+      /*Set general colors and font*/
+      background-color: #080808;
+      color: #a0a0a0;
+      font-family: Arial, Arial, Helvetica, sans-serif;
+      
+      /*Center sections on page and set the width*/
+      margin-left: auto;
+      margin-right: auto;
+      width: 1024px;
+    }
+
+    header
+    {
+      /*Set font, size, spacing and alignment for title*/
+      font-family: "Syncopate", sans-serif;
+      font-size: 2em;
+      letter-spacing: 36px;
+      
+      /*Center div on page*/
+      margin-left: auto;
+      margin-right: auto;
+      width: 1024px;
+      
+      /*Center title and caption within the div*/
+      display: block;
+      text-align: center;
+    }
+
+      header span
+      {
+        /*"Capitalize" each letter in the title*/
+        font-size: 1.3em;
+      }
+
+        header span:first-child
+        {
+          /*Since we're applying letter spacing, scoot the title to the right so that it's centered*/
+          padding-left: 32px;
+        }
+
+      header p
+      {
+        /*Set the "Podcast" caption to a smaller size and normal spacing*/
+        font-size: .7em;
+        letter-spacing: normal;
+      }
+
+    nav
+    {
+      /*Create a buffer around the nav selectors and center them within*/
+      border-top: 1px solid #404040;
+      border-bottom: 1px solid #404040;
+      margin-top: 12px;
+      margin-bottom : 12px;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      text-align: center;
+    }
+
+      nav a
+      {
+        /*Set font for the nav links*/
+        font-family: "Syncopate", sans-serif;
+
+        /*Create spacing between the nav links*/
+        padding-left: 125px;
+        padding-right: 125px;
+      }  
+
+    footer
+    {
+      /*Create top and bottom borders*/
+      border-bottom: 1px solid #404040;
+      border-top: 1px solid #404040;
+      
+      /*
+        Separate the footer from the page content and the bottom of the page; add padding to
+        pull it away from the top and bottom borders
+      */
+      margin-top: 12px;
+      margin-bottom: 12px;
+      padding-bottom: 4px;
+      padding-top: 4px;
+
+      /*Set font size and color; right-justify*/
+      font-size: .7em;
+      color: #404040;
+      text-align: right;
+    }

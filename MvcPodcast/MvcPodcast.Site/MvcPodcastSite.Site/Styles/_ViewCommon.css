@@ -1,0 +1,14 @@
+﻿h2
+{
+  /*Set header caption font size and weight. Define a bottom margin that pushes the sections to follow down*/
+  font-size: 1.4em;
+  font-weight: 900;
+  margin-bottom: 40px;
+}
+
+.caption
+{
+  /*Set captions and font*/
+  color: #900000;
+  font-family: "Syncopate";
+}
